@@ -1,0 +1,40 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-top: 52px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        li a {
+            position: relative;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 32px;
+            transition: .3s ease;
+            &:hover::before {
+                width: 150px;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 130px;
+                height: 2px;
+                background: $text;
+                bottom: -10px;
+                transition: .3s ease;
+            }
+        }
+    }
+
+}

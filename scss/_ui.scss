@@ -1,0 +1,25 @@
+$main-color: #000;
+$primary-color: #B17FCF;
+$secondary-color: #7FCFC5;
+$text: #fff;
+$text-secondary: #AAAAAA;;
+$transition: all .5s ease;
+$font:'Press Start 2P', cursive;
+$bg: conic-gradient(from 180deg at 50% 50%, #E1523D 0deg, #ED8B16 360deg);
+
+.bg {
+    background: $bg;
+}
+
+.full {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+}
