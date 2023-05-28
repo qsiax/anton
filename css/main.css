@@ -208,7 +208,7 @@ body li {
   bottom: 200px;
   width: 300px;
   height: 300px;
-  background: url(/source/home.png);
+  background: url(../source/home.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -249,7 +249,7 @@ body li {
   bottom: 0px;
   width: 250px;
   height: 250px;
-  background: url(/source/educational.png);
+  background: url(../source/educational.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -282,7 +282,7 @@ body li {
   bottom: 200px;
   width: 180px;
   height: 180px;
-  background: url(/source/health.png);
+  background: url(../source/health.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -326,7 +326,7 @@ body li {
   bottom: 20px;
   width: 300px;
   height: 300px;
-  background: url(/source/me.png);
+  background: url(../source/me.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
